@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  font-size: 20px;
+}
+
+.TicTacToe {
+  margin: 0 auto;
+  max-width: 200px;
+}
+
+.status {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.board-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.square {
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  border: 2px solid #999;
+  font-size: 36px;
+  text-align: center;
+  line-height: 80px;
+  margin: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.square:hover {
+  background-color: #f0f8ff;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.square.X {
+  color: #ff6347;
+}
+
+.square.O {
+  color: #4682b4;
+}
